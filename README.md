@@ -1,4 +1,4 @@
-# Notes App Project
+# Django Notes App Project
 
 This repository contains the code for a **Notes App** built with Django, Dockerized for deployment, and using a MySQL database backend. The project structure is organized for easy development, testing, and deployment.
 
@@ -89,8 +89,8 @@ The directory where Django collects static files when `collectstatic` is run. Th
 ### Running the App (Using Docker Compose)
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/M-Tayyab06/django-notes-app.git
+   cd django-notes-app
    ```
 
 2. Build and start the services:
@@ -98,4 +98,4 @@ The directory where Django collects static files when `collectstatic` is run. Th
    docker-compose up --build
    ```
 
-3. Access the app at `http://localhost` (or the configured port).
+3. Access the app at `http://localhost:8000`.
