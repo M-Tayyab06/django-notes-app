@@ -1,6 +1,6 @@
 pipeline{
     
-    agent {label "kali-linux"}
+    agent any
     stages{
         
         stage("Code"){
