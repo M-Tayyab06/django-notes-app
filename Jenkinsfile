@@ -16,7 +16,7 @@ pipeline{
                 sh "whoami"
                 sh 'rm -rf data/mysql/db/*'
                 sh "docker compose build"
-                echo "Building is successful"
+                echo "Image has been build"
             }
         }
         stage("Test"){
