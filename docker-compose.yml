@@ -52,6 +52,6 @@ services:
       start_period: 60s
     networks:
       - notes-app
-
+      
 networks:
   notes-app:
