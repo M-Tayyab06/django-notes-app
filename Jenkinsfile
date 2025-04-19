@@ -11,7 +11,7 @@ pipeline {
                 }
             }
         }
-        stage("Code Clonning") {
+        stage("Code Cloning") {
             steps {
                 script{
                     clone("https://github.com/M-Tayyab06/django-notes-app.git","main")
