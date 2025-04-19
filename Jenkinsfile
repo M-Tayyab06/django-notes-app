@@ -11,7 +11,7 @@ pipeline {
                 }
             }
         }
-        stage("Code") {
+        stage("Code Clonning") {
             steps {
                 script{
                     clone("https://github.com/M-Tayyab06/django-notes-app.git","main")
@@ -27,7 +27,7 @@ pipeline {
             }
         }
 
-        stage("Push") {
+        stage("Push to Docker Hub") {
             steps {
                 script{
                     docker_push("notes-app","latest","mtayyab06")
